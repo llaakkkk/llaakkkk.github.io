@@ -1,0 +1,547 @@
+.container {
+    width: 1200px;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+/* header */
+.header {
+    background-image: url("../images/lena_main.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 100px 0 230px 0;
+}
+
+.header_logo {
+    margin-bottom: 47px;
+    text-align: center;
+}
+
+.header_logo img {
+    width: 100px;
+}
+
+.header_menu {
+    margin-bottom: 100px;
+}
+
+.header_menu ul {
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+.header_menu ul li {
+    display: inline-block;
+    list-style: none;
+    margin: 0 15px;
+}
+
+.header_menu ul li a {
+    color: #4c5760;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.header_inf {
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.header_title {
+    text-align: center;
+    margin-bottom: 10px;
+    width: 50%;
+}
+
+.header_title h1 {
+    color: #ffffff;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 1;
+    text-transform: uppercase;
+}
+
+.header_subtitle {
+    text-align: right;
+    margin-bottom: 101px;
+    width: 50%;
+}
+
+.header_subtitle h2 {
+    color: #ffffff;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 1;
+    text-transform: uppercase;
+    position: relative;
+    padding: 0 32px;
+}
+
+/* about me*/
+
+.about {
+    padding: 100px 0;
+}
+
+.about_row {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.about_col {
+    width: 500px;
+}
+
+.about_title {
+    text-align: center;
+    padding: 0 0 23px;
+    margin-top: 100px;
+}
+
+.about_title h3 {
+    color: #384048;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 1;
+    text-transform: uppercase;
+    padding-left: 15px;
+    margin: 0;
+}
+
+.about_text {
+    margin-bottom: 38px;
+}
+
+.about_text h4 {
+    color: #787b80;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.about_img img {
+    width: 500px;
+}
+
+.about_link {
+    text-align: right;
+}
+
+.about_link a {
+    color: #ffdfed;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
+}
+
+/* services */
+.services {
+    padding: 100px 0;
+    background: #ffe9ee87;
+}
+
+.service_main_title {
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.service_main_title h3 {
+    color: #384048;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 1;
+    text-transform: uppercase;
+    padding-left: 15px;
+    margin: 0;
+}
+
+.services_row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.service_column {
+    width: 300px;
+}
+
+.service_img {
+    margin-bottom: 50px;
+}
+
+.service_img img {
+    width: 200px;
+}
+
+.service_title {
+    margin-bottom: 25px;
+}
+
+.service_title h5 {
+    color: #384048;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    text-transform: uppercase;
+}
+
+.service_text p {
+    color: #787b80;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 1;
+}
+
+/* latest posts main */
+.main_posts {
+    padding: 100px 0;
+}
+
+.main_posts_main_title {
+    text-align: center;
+}
+
+.main_posts_main_title h3 {
+    color: #384048;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 1;
+    text-transform: uppercase;
+    margin: 0;
+}
+
+.main_posts_sub_title {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.main_posts_sub_title h4 {
+    color: #787b80;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.main_posts_row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.main_posts_column {
+    width: 500px;
+}
+
+.main_posts_img {
+    margin-bottom: 50px;
+    height: 400px;
+}
+
+.main_posts_img img {
+    height: 400px;
+}
+
+.main_posts_title {
+    margin-bottom: 31px;
+    text-align: center;
+}
+
+.main_posts_title h5 {
+    color: #384048;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 24px;
+    text-transform: uppercase;
+}
+
+.main_posts_text {
+    margin-bottom: 34px;
+    text-align: left;
+}
+
+.main_posts_text p {
+    color: #787b80;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    padding-left: 30px;
+}
+
+.main_posts_link {
+    text-align: right;
+}
+
+.main_posts_link a {
+    color: #ffdfed;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+/* recommend */
+
+.recommend {
+    padding: 100px 0;
+    background: #ffe9ee87;
+}
+
+.recommend_main_title {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.recommend_main_title h3 {
+    color: #384048;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 1;
+    text-transform: uppercase;
+    margin: 0;
+}
+
+.recommend_img {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.recommend_img img {
+    width: 150px;
+}
+
+.recommend_author {
+    text-align: center;
+}
+
+.recommend_author h4 {
+    color: #384048;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1;
+    text-transform: uppercase;
+    margin: 0;
+
+}
+
+.recommend_position {
+    text-align: center;
+    margin-bottom: 40px;
+
+}
+
+.recommend_position h5 {
+    color: #4c57609c;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 1;
+    margin: 0;
+    padding-top: 5px;
+}
+
+.recommend_text {
+    text-align: center;
+    width: 60%;
+    margin: 0 auto;
+}
+
+.recommend_text p {
+    color: #787b80;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 1.5;
+}
+
+/* contact me*/
+
+.main_contact {
+    padding: 150px 0;
+}
+
+.main_contact_title {
+    text-align: center;
+}
+
+.main_contact_title h3 {
+    color: #384048;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 1;
+    text-transform: uppercase;
+    margin: 0;
+}
+
+/* footer */
+
+.footer {
+    padding: 50px 0;
+    background: #384048;
+}
+
+.footer_row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.footer_column {
+    width: 280px;
+}
+
+.footer_text p {
+    font-family: 'PT Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #ffdfed;
+}
+
+.footer_socials {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.footer_fab {
+    width: 40px;
+    margin-left: 15px;
+}
+
+.footer_fab a {
+    text-decoration: none;
+    color: #ffdfed;
+    font-size: 30px;
+}
+
+/* about page*/
+.about_page_header {
+    background:  #ffdfed;
+    padding: 50px 0;
+}
+.about_page_header_menu{
+    margin-bottom: 20px;
+}
+
+.about_page_header_menu ul {
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+.about_page_header_menu ul li {
+    display: inline-block;
+    list-style: none;
+    margin: 0 15px;
+}
+
+.about_page_header_menu ul li a {
+    color: #4c5760;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+
+/* about me page*/
+
+.about_me {
+    padding: 100px 0;
+}
+
+.about_me_row {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.about_me_col {
+    width: 500px;
+}
+
+.about_me_title {
+    text-align: center;
+    margin-top: 60px;
+}
+
+.about_me_title h3 {
+    color: #384048;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 1;
+    text-transform: uppercase;
+    padding-left: 15px;
+    margin: 0;
+}
+
+.about_me_text {
+    margin-bottom: 38px;
+}
+
+.about_me_text h4 {
+    color: #787b80;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.about_me_img img {
+    width: 500px;
+}
+
+.about_me_link {
+    text-align: right;
+}
+
+.about_me_link a {
+    color: #ffdfed;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.about_me_text p {
+    color: #303233;
+    font-family:  'Ubuntu', sans-serif;
+    font-size: 17px;
+    font-weight: 300;
+    line-height: 1.5;
+    text-transform: lowercase;
+}
