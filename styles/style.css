@@ -219,6 +219,21 @@
     padding: 100px 0;
 }
 
+.main_posts_date {
+    text-align: left;
+    padding-left: 50px;
+}
+
+.main_posts_date span {
+    color: #aaaaaa;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 1;
+    text-transform: lowercase;
+    margin: 0;
+}
+
 .main_posts_main_title {
     text-align: center;
 }
@@ -258,7 +273,7 @@
 }
 
 .main_posts_img {
-    margin-bottom: 50px;
+    margin-bottom: 20px;
     height: 400px;
 }
 
@@ -303,6 +318,28 @@
     font-family: 'PT Sans', sans-serif;
     font-size: 20px;
     font-weight: 700;
+}
+
+.main_posts_nav {
+    text-align: center;
+}
+
+.main_posts_nav a {
+    color: #cbabb9;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 19px;
+    font-weight: 700;
+    padding-left: 10px;
+}
+
+.main_posts_nav a.disabled {
+    color: #999;
+    text-decoration: none;
+}
+
+.main_posts_nav a.active {
+    color: #eab1e8;
+    text-decoration: none;
 }
 
 /* recommend */
@@ -444,28 +481,29 @@
     font-size: 30px;
 }
 
-/* about page*/
-.about_page_header {
-    background:  #ffdfed;
+/* menu for not main page*/
+.page_header {
+    background: #ffdfed;
     padding: 50px 0;
 }
-.about_page_header_menu{
+
+.page_header_menu {
     margin-bottom: 20px;
 }
 
-.about_page_header_menu ul {
+.page_header_menu ul {
     padding: 0;
     margin: 0;
     text-align: center;
 }
 
-.about_page_header_menu ul li {
+.page_header_menu ul li {
     display: inline-block;
     list-style: none;
     margin: 0 15px;
 }
 
-.about_page_header_menu ul li a {
+.page_header_menu ul li a {
     color: #4c5760;
     font-family: 'Open Sans', sans-serif;
     font-size: 14px;
@@ -474,7 +512,6 @@
     text-transform: uppercase;
     text-decoration: none;
 }
-
 
 /* about me page*/
 
@@ -539,9 +576,63 @@
 
 .about_me_text p {
     color: #303233;
-    font-family:  'Ubuntu', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
     font-size: 17px;
     font-weight: 300;
     line-height: 1.5;
     text-transform: lowercase;
+}
+
+/* blog page*/
+
+.blog_post_row {
+    margin: 25px 0;
+    align-items: baseline;
+}
+
+/* post page */
+
+.post_header {
+    margin-bottom: 40px;
+}
+
+.post_image img {
+    height: 700px;
+}
+
+.post_title {
+    margin: 40px 0;
+    text-align: center;
+    height: 50%;
+}
+
+.post_title h2 {
+    color: #384048;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 1;
+    text-transform: uppercase;
+    padding-left: 15px;
+    margin: 0;
+}
+
+.post_text {
+    margin-bottom: 50px;
+}
+
+.post_text p {
+    color: #303233;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 1.5;
+}
+
+.post_text ul li {
+    color: #303233;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 1.5;
 }
