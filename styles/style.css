@@ -586,7 +586,7 @@
 /* blog page*/
 
 .blog_post_row {
-    margin: 25px 0;
+    margin: 50px 0;
     align-items: baseline;
 }
 
@@ -601,7 +601,7 @@
 }
 
 .post_title {
-    margin: 40px 0;
+    margin: 50px 0;
     text-align: center;
     height: 50%;
 }
@@ -618,7 +618,7 @@
 }
 
 .post_text {
-    margin-bottom: 50px;
+    margin: 20px 0 100px;
 }
 
 .post_text p {
@@ -635,4 +635,162 @@
     font-size: 20px;
     font-weight: 300;
     line-height: 1.5;
+}
+
+/* course */
+.course {
+    padding: 100px 0;
+    margin-bottom: 40px;
+    background: #ffdfed;
+    text-align: center;
+}
+
+.course_title h2 {
+    color: #384048;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 1;
+    text-transform: uppercase;
+    padding-left: 15px;
+    margin: 0;
+}
+
+.course_sub_title h3 {
+    color: #303233;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 1.5;
+}
+
+.course_background {
+    background: #ffe9ee;
+}
+
+/* get */
+
+.get {
+    padding: 100px 0;
+    margin-bottom: 40px;
+}
+
+.get_title {
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.get_title h4 {
+    color: #384048;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 1;
+    text-transform: uppercase;
+    padding-left: 15px;
+    margin: 0;
+}
+
+.get_text ul li {
+    color: #303233;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 22px;
+    font-weight: 300;
+    line-height: 1.5;
+}
+
+/* apply */
+
+.apply {
+    padding: 100px 0;
+    margin-bottom: 40px;
+}
+
+.apply_title {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.apply_title h4 {
+    color: #384048;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 1;
+    text-transform: uppercase;
+    padding-left: 15px;
+    margin: 0;
+}
+
+.apply_desc {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.apply_desc p {
+    color: #303233;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 1.5;
+}
+
+.apply_form {
+    position: relative;
+    height: 100%;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    align-items: center;
+}
+
+.apply_form form {
+    width: 500px;
+    max-width: 100%;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    flex-direction: column;
+}
+
+.apply_form form label {
+    color: #303233;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 1.5;
+}
+
+.apply_form form label input {
+    height: 40px;
+    width: 100%;
+    border-radius: 10px;
+    border: 1px solid #8f8f8f;
+    margin: 10px;
+}
+
+.apply_form form label textarea {
+    height: 140px;
+    width: 100%;
+    border-radius: 10px;
+    border: 1px solid #8f8f8f;
+    margin: 10px;
+}
+
+.apply_form form button {
+    width: 255px;
+    height: 55px;
+    background-color: #ffe9ee;
+    color: #384048;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 20px;
+    text-align: center;
+    line-height: 48px;
+    border: 0;
+    border-radius: 30px;
+    margin: 0 auto;
 }
