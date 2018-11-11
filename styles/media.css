@@ -4,86 +4,110 @@
         padding: 0 15px;
     }
 
-    .header_title h1 {
-        font-size: 25px;
-        line-height: 25px;
+    .header {
+        background: #ffdfed;
+        padding: 100px 0;
     }
-    .header_menu ul li {
-        margin: 0 10px;
+
+    .header_title {
+        width: 100%;
     }
+
     .header_menu ul li a {
-        font-size: 10px;
+        font-size: 11px;
     }
 
-    .features_row {
+    .page_header_menu ul li {
+        margin: 0 5px;
+    }
+
+    .about {
+        padding: 40px 0;
+    }
+
+    .about_row {
         flex-direction: column;
     }
 
-    .feature_column {
+    .about_col {
         width: 60%;
-        margin-bottom: 25px;
+        margin: 0 auto;
     }
 
-    .functions_row {
-        flex-direction: column;
+    .about_img {
+        width: 100%;
     }
 
-    .function_column {
-        margin-bottom: 25px;
+    .about_img img {
+        max-width: 100%;
     }
 
-    .aspects_row {
-        flex-direction: column;
-    }
-
-    .aspect_column {
+    .about_col {
         width: 60%;
-        margin-bottom: 25px;
+        margin: 0 auto;
     }
 
-    .aspect_img img {
-        width: 100%;
-    }
-
-    .stimulus_row {
+    .services_row {
         flex-direction: column;
     }
 
-    .stimulus_column {
-        margin-bottom: 25px;
+    .service_column {
+        margin-bottom: 20px;
     }
 
-    .client_row {
+    .service_img {
+        margin-bottom: 20px;
+    }
+
+    .main_posts_row {
         flex-direction: column;
     }
 
-    .client_column {
-        margin-bottom: 25px;
-        width: 100%;
+    .main_posts_column {
+        max-width: 300px;
     }
 
-    .client_img img {
-        width: 100%;
-    }
-    .partners_row {
-        flex-direction: column;
+    .main_posts_img img {
+        max-width: 300px;
+        height: auto;
+        padding: 0;
     }
 
-    .partner_column {
-        margin-bottom: 25px;
-        width: 100%;
+    .main_posts_text p {
+        padding: 0;
+    }
+
+    .main_contact_title h3 {
+        font-size: 19px;
     }
 
     .footer_row {
         flex-direction: column;
     }
 
-    .footer_column {
-        margin-bottom: 25px;
-        width: 100%;
+    .about_me_row {
+        flex-direction: column;
+        display: inline-block;
     }
 
-    .footer_socials {
-        justify-content: center;
+    .about_me_col {
+        max-width: 300px;
+    }
+
+    .about_me_img img {
+        max-width: 300px;
+    }
+
+    .page_header_menu ul li a {
+        font-size: 11px;
+    }
+
+    .post_image img {
+        max-width: 300px;
+        height: auto;
+    }
+
+    .about_me {
+        padding: 100px 0;
     }
 }
