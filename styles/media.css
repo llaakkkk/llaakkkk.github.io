@@ -2,6 +2,7 @@
     .container {
         width: 100%;
         padding: 0 15px;
+        max-width: 600px;
     }
 
     .header {
@@ -10,6 +11,10 @@
     }
 
     .header_title {
+        width: 100%;
+    }
+
+    .header_subtitle {
         width: 100%;
     }
 
@@ -32,6 +37,7 @@
     .about_col {
         width: 60%;
         margin: 0 auto;
+        padding-bottom: 30px;
     }
 
     .about_img {
@@ -64,7 +70,12 @@
     }
 
     .main_posts_column {
-        max-width: 300px;
+        width: 100%;
+        margin: 10px 0;
+    }
+
+    .main_posts_img {
+        height: 100%;
     }
 
     .main_posts_img img {
@@ -75,6 +86,14 @@
 
     .main_posts_text p {
         padding: 0;
+    }
+
+    .main_course {
+        padding: 100px 15px;
+    }
+
+    .recommend_text {
+        width: 100%;
     }
 
     .main_contact_title h3 {
@@ -91,7 +110,7 @@
     }
 
     .about_me_col {
-        max-width: 300px;
+        width: 100%;
     }
 
     .about_me_img img {
@@ -109,5 +128,165 @@
 
     .about_me {
         padding: 100px 0;
+    }
+
+    .post_row {
+        flex-direction: column;
+        display: inline-block;
+    }
+
+    .post_col {
+        width: 100%;
+    }
+
+    .get_row {
+        flex-direction: column;
+        display: inline-block;
+    }
+
+    .get_col {
+        width: 100%;
+    }
+
+    .get_img {
+        text-align: center;
+    }
+
+    .get_img img {
+        max-width: 300px;
+    }
+
+    .course_about_me_title {
+        margin: 15px 0;
+    }
+}
+
+@media print {
+    @page {
+        margin: 1cm;
+    }
+
+    *,
+    *:before,
+    *:after,
+    *:first-letter,
+    p:first-line,
+    div:first-line,
+    blockquote:first-line,
+    li:first-line {
+        background: transparent !important;
+        color: #000 !important;
+        box-shadow: none !important;
+        text-shadow: none !important;
+    }
+
+    body {
+        font-size: 20px;
+    }
+
+    .header {
+        padding: 1cm 0;
+        margin: 0 0 1cm;
+    }
+
+    a[href^="http"]:not([href*="mywebsite.com"]):after {
+        content: " (" attr(href) ")";
+    }
+
+    abbr[title]:after {
+        content: " (" attr(title) ")";
+    }
+
+    section {
+        margin-bottom: 1cm;
+    }
+
+    div.blog_post_row {
+        page-break-inside: avoid;
+    }
+
+    div.about_me_row {
+        page-break-inside: avoid;
+    }
+
+    .about_row {
+        padding: 0 0.5cm;
+    }
+
+    .about_me_col {
+        width: 50%;
+    }
+
+    .about_me_img img {
+        width: 100%;
+    }
+
+    .main_posts_column {
+        width: 50%;
+        padding: 0 1cm;
+    }
+
+    .main_posts_img img {
+        height: auto;
+        width: auto;
+    }
+
+    .page_header {
+        padding: 1cm 0;
+    }
+
+    .post_image img {
+        height: auto;
+        width: auto;
+        max-width: 100%;
+        padding: 1cm 0;
+    }
+
+    .course {
+        padding: 1cm 0;
+        margin-bottom: 0.2cm;
+    }
+
+    .get {
+        padding: 1cm 0;
+        margin-bottom: 0;
+    }
+
+    .about_me {
+        padding: 1cm 0;
+    }
+
+    .apply {
+        padding: 1cm 0;
+        margin-bottom: 0.5cm;
+    }
+
+    section.about {
+        page-break-inside: avoid;
+        padding: 0.5cm 0;
+    }
+
+    .footer_column {
+        width: 50%;
+        margin: 0 auto;
+    }
+
+    .footer_fab {
+        width: auto;
+        margin-left: 0;
+    }
+
+    .footer_socials {
+        font-size: 15px;
+        width: auto;
+        display: flex;
+        align-items: flex-start;
+        flex-direction: column;
+    }
+
+    .footer_fab a {
+        text-decoration: underline;
+        color: #ffdfed;
+        font-size: 15px;
     }
 }
