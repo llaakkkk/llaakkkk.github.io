@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Blog by Lena Kirichok">
+    <meta name="keywords" content="Programming, Courses, Developer">
+    <meta name="author" content="Lena Kirichok - Backend Developer, Blogger">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
+    <title>Telegram posts</title>
+    <link rel="icon" href="./images/favicon.ico" type="image/x-icon" sizes="16x16"/>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Ubuntu:300,400,500,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=PT+Sans:400,700" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css"
+          integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+    <link rel="stylesheet" href="./styles/style.css">
+    <link rel="stylesheet" href="./styles/media.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.min.css">
+</head>
+<body>
+<!-- header -->
+<header class="page_header">
+    <div class="container">
+        <div class="header_logo">
+            <a href="/"><img src="./images/logo.png" alt="Lena Kirichok website logo"></a>
+        </div>
+        <nav class="page_header_menu">
+            <ul>
+                <li><a href="/">Home</a></li>
+                <li><a href="./about.html">Who I am</a></li>
+                <li><a href="./blog.html">What I write</a></li>
+                <li><a href="./course.html">My course</a></li>
+                <li><a class="active" href="./telegram.html">Explore TG</a></li>
+
+            </ul>
+        </nav>
+    </div>
+</header>
+<!-- end header -->
+<section class="telegram">
+    <div class="container">
+        <div class="tg_row">
+            <div class="tg_col">
+                <div class="telegram_posts_title">
+                    <h2>
+                        Last Posts
+                    </h2>
+                </div>
+
+                <ul class="pagination-sm"></ul>
+
+                <div class="">
+                    <label for="search-text">Search the post</label>
+                    <input type="text" id="search-text" placeholder="search" class="search-box">
+                </div>
+
+
+                <span class="list-count"></span>
+                <div class="telegram_posts">
+                </div>
+                <span class="empty-item">no results</span>
+                <ul class="pagination-sm"></ul>
+            </div>
+            <div class="tg_col">
+
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<!-- footer -->
+<footer class="footer">
+    <div class="container">
+        <div class="footer_row">
+            <div class="footer_column">
+                <div class="footer_text">
+                    <p>
+                        Lena Kirichok © 2018
+                    </p>
+                </div>
+            </div>
+            <div class="footer_column">
+                <div class="footer_socials">
+                    <div class="footer_fab"><a href="https://www.linkedin.com/in/lena-k-14b891aa/" target="_blank"><i
+                            class="fab fa-linkedin"></i></a></div>
+                    <div class="footer_fab"><a href="https://www.facebook.com/lena.kirichok" target="_blank"><i
+                            class="fab fa-facebook-square"></i></a></div>
+                    <div class="footer_fab"><a href="https://twitter.com/lllllak" target="_blank"><i
+                            class="fab fa-twitter-square"></i></a></div>
+                    <div class="footer_fab"><a href="https://www.instagram.com/lakie.dev/" target="_blank"><i
+                            class="fab fa-instagram"></i></a></div>
+                    <div class="footer_fab"><a href="https://t.me/girlintech" target="_blank"><i
+                            class="fab fa-telegram-plane"></i></a></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+<!-- end footer -->
+<script
+        src="https://code.jquery.com/jquery-3.3.1.min.js"
+        integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+        crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twbs-pagination/1.4.2/jquery.twbsPagination.min.js"></script>
+<script type="text/javascript" src="./js/telegram.js">
+</script>
+</body>
+</html>
