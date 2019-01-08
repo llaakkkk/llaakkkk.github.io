@@ -46,28 +46,73 @@
                         Last Posts
                     </h2>
                 </div>
-
                 <ul class="pagination-sm"></ul>
-
-                <div class="">
+                <div class="search_posts">
                     <label for="search-text">Search the post</label>
-                    <input type="text" id="search-text" placeholder="search" class="search-box">
+                    <div class="search-inputs">
+                        <input type="text" id="search-text" placeholder="search" class="search-box">
+                        <button class="clear-results hidden">Clear</button>
+                    </div>
                 </div>
-
-
-                <span class="list-count"></span>
-                <div class="telegram_posts">
+                <div class="hashtag"></div>
+                <div class="posts_count">
+                    <span class="list-count"></span>
                 </div>
-                <span class="empty-item">no results</span>
+                <div class="telegram_posts"></div>
+                <div class="no_posts">
+                    <span class="empty-item hidden">no results</span>
+                </div>
                 <ul class="pagination-sm"></ul>
             </div>
             <div class="tg_col">
-
+                <div class="contact_me">
+                    <div class="contact_notification notification hidden ">
+                        <a href="#">
+                            Message is sent!
+                            <i class="fas fa-times"></i>
+                        </a>
+                    </div>
+                    <div class="contact_notification_error notification hidden">
+                        <a href="#">
+                            Message not sent, something gone wrong.
+                            <i class="fas fa-times"></i>
+                        </a>
+                    </div>
+                    <div class="apply_title">
+                        <h4>Contact me</h4>
+                    </div>
+                    <div class="apply_desc">
+                        <p>Ask me what you interesting about or let's speak about new post idea</p>
+                    </div>
+                    <div class="apply_form">
+                        <form id="contact_me_form" method="post" action="">
+                            <label for="name">
+                                Name*
+                            </label>
+                            <input type="text" id="name" name="cname">
+                            <label for="email">
+                                Email*
+                            </label>
+                            <input type="email" id="email" name="cemail">
+                            <label for="message">
+                                Message for me
+                            </label>
+                            <textarea id="message" name="cmessage"></textarea>
+                            <input class="apply_btn_send" id="submit" type="submit" value="Apply now">
+                        </form>
+                    </div>
+                </div>
             </div>
+        </div>
+
+        <div class="tg_row">
+            <div class="follow">
+                <a href="https://t.me/joinchat/AAAAAFa4wcuyed6lXnstZA" class="follow-me-link">Follow me!</a>
+            </div>
+
         </div>
     </div>
 </section>
-
 
 <!-- footer -->
 <footer class="footer">
@@ -102,6 +147,7 @@
         src="https://code.jquery.com/jquery-3.3.1.min.js"
         integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
         crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.19.0/dist/jquery.validate.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/twbs-pagination/1.4.2/jquery.twbsPagination.min.js"></script>
 <script type="text/javascript" src="./js/telegram.js">
 </script>

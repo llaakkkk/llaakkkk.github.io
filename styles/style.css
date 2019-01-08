@@ -977,7 +977,7 @@
 }
 
 .telegram_posts_title {
-    margin-bottom: 40px;
+    margin-bottom: 60px;
     text-align: center;
 }
 
@@ -1054,4 +1054,201 @@
 
 .pagination-sm li{
     display: inline-block;
+}
+
+.hidden {
+    display: none !important;
+}
+.apply_form form label.error{
+    color: #b06293;
+}
+
+.search_posts {
+    width: 500px;
+    max-width: 100%;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    flex-direction: column;
+}
+
+.search_posts label {
+    color: #303233;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 1.5;
+}
+
+.search_posts input {
+    height: 40px;
+    width: 100%;
+    border-radius: 10px;
+    border: 1px solid #8f8f8f;
+    margin: 10px;
+}
+
+.hashtag a {
+    display: inline-flex;
+    align-items: center;
+    background-color: #ffdfed;
+    height: 30px;
+    padding: 0 20px;
+    color: #4c5760;
+    box-shadow: 0 10px 50px 0 rgba(255,223,237,1);
+    border-radius: 10px;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 15px;
+    text-decoration: none;
+}
+.hashtag a i {
+    color: #4c5760;
+    margin-left: 10px;
+}
+
+.posts_count{
+    width: 100%;
+    text-align: right;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 15px;
+}
+
+.no_posts{
+    width: 100%;
+    text-align: center;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 15px;
+    color: #4c5760;
+}
+
+.search_posts input{
+    padding-left: 15px;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 20px;
+    color: #4c5760;
+}
+
+.search_posts input::placeholder{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 17px;
+    color: #4c5760;
+}
+
+.clear-results {
+    display: inline-flex;
+    align-items: center;
+    background-color: #ffdfed;
+    height: 40px;
+    padding: 0 10px;
+    color: #4c5760;
+    box-shadow: 0 10px 50px 0 rgba(255,223,237,1);
+    border-radius: 10px;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 17px;
+    border: 0;
+}
+
+.search-inputs{
+    display: flex;
+    align-items: center;
+}
+
+.apply_form form {
+    width: 500px;
+    max-width: 100%;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    flex-direction: column;
+}
+
+.apply_form form label{
+    margin: 10px 0;
+}
+
+.apply_form form input {
+    height: 40px;
+    width: 100%;
+    border-radius: 10px;
+    border: 1px solid #8f8f8f;
+}
+
+.apply_form form textarea {
+    border-radius: 10px;
+    /*width: 100%;*/
+    border: 1px solid #8f8f8f;
+    height: 100px;
+
+    /*margin: 10px;*/
+}
+
+
+.apply_form form input.apply_btn_send {
+    display: inline-flex;
+    align-items: center;
+    background-color: #ffdfed;
+    height: 40px;
+    padding: 0 10px;
+    color: #4c5760;
+    box-shadow: 0 10px 50px 0 rgba(255,223,237,1);
+    border-radius: 10px;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 17px;
+    border: 0;
+    justify-content: center;
+    width: 150px;
+    margin: 20px auto 0 auto;
+}
+
+.contact_notification{
+    display: inline-flex;
+    align-items: center;
+    background-color: #ffdfed;
+    height: 40px;
+    padding: 0 10px;
+    color: #4c5760;
+    box-shadow: 0 10px 50px 0 rgba(255,223,237,1);
+    border-radius: 10px;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 17px;
+    border: 0;
+}
+.contact_notification_error{
+    display: inline-flex;
+    align-items: center;
+    background-color: rgba(163, 33, 33, 0.73);
+    height: 40px;
+    padding: 0 10px;
+    color: #4c5760;
+    box-shadow: 0 10px 50px 0 rgba(163, 33, 33, 0.73);
+    border-radius: 10px;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 17px;
+    border: 0;
+}
+
+.notification a{
+    text-decoration: none;
+    color: #4c5760;
+}
+
+.follow-me-link{
+    display: inline-flex;
+    align-items: center;
+    background-color: #ffdfed;
+    height: 40px;
+    padding: 0 10px;
+    color: #4c5760;
+    box-shadow: 0 10px 50px 0 rgba(255,223,237,1);
+    border-radius: 10px;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 17px;
+    border: 0;
+    justify-content: center;
+    width: 150px;
+    margin: 20px auto 0 auto;
+    text-decoration: none;
+}
+.follow {
+    display: contents;
 }
