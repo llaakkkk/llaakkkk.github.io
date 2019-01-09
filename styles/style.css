@@ -8,6 +8,10 @@
     box-sizing: border-box;
 }
 
+a {
+    word-break: break-word;
+}
+
 /* header */
 .header {
     background-image: url("../images/lena_main.jpg");
@@ -1007,6 +1011,7 @@
     font-weight: 300;
     line-height: 1.5;
     margin: 0 0 15px;
+    word-break: break-word;
 }
 
 .telegram_posts_item span {
@@ -1046,20 +1051,20 @@
     text-decoration: none;
 }
 
-
-.pagination-sm{
+.pagination-sm {
     display: inline-block;
     margin-bottom: 1.75em;
 }
 
-.pagination-sm li{
+.pagination-sm li {
     display: inline-block;
 }
 
 .hidden {
     display: none !important;
 }
-.apply_form form label.error{
+
+.apply_form form label.error {
     color: #b06293;
 }
 
@@ -1095,25 +1100,26 @@
     height: 30px;
     padding: 0 20px;
     color: #4c5760;
-    box-shadow: 0 10px 50px 0 rgba(255,223,237,1);
+    box-shadow: 0 10px 50px 0 rgba(255, 223, 237, 1);
     border-radius: 10px;
     font-family: 'Ubuntu', sans-serif;
     font-size: 15px;
     text-decoration: none;
 }
+
 .hashtag a i {
     color: #4c5760;
     margin-left: 10px;
 }
 
-.posts_count{
+.posts_count {
     width: 100%;
     text-align: right;
     font-family: 'Ubuntu', sans-serif;
     font-size: 15px;
 }
 
-.no_posts{
+.no_posts {
     width: 100%;
     text-align: center;
     font-family: 'Ubuntu', sans-serif;
@@ -1121,14 +1127,14 @@
     color: #4c5760;
 }
 
-.search_posts input{
+.search_posts input {
     padding-left: 15px;
     font-family: 'Ubuntu', sans-serif;
     font-size: 20px;
     color: #4c5760;
 }
 
-.search_posts input::placeholder{
+.search_posts input::placeholder {
     font-family: 'Ubuntu', sans-serif;
     font-size: 17px;
     color: #4c5760;
@@ -1141,14 +1147,14 @@
     height: 40px;
     padding: 0 10px;
     color: #4c5760;
-    box-shadow: 0 10px 50px 0 rgba(255,223,237,1);
+    box-shadow: 0 10px 50px 0 rgba(255, 223, 237, 1);
     border-radius: 10px;
     font-family: 'Ubuntu', sans-serif;
     font-size: 17px;
     border: 0;
 }
 
-.search-inputs{
+.search-inputs {
     display: flex;
     align-items: center;
 }
@@ -1162,7 +1168,7 @@
     flex-direction: column;
 }
 
-.apply_form form label{
+.apply_form form label {
     margin: 10px 0;
 }
 
@@ -1182,7 +1188,6 @@
     /*margin: 10px;*/
 }
 
-
 .apply_form form input.apply_btn_send {
     display: inline-flex;
     align-items: center;
@@ -1190,7 +1195,7 @@
     height: 40px;
     padding: 0 10px;
     color: #4c5760;
-    box-shadow: 0 10px 50px 0 rgba(255,223,237,1);
+    box-shadow: 0 10px 50px 0 rgba(255, 223, 237, 1);
     border-radius: 10px;
     font-family: 'Ubuntu', sans-serif;
     font-size: 17px;
@@ -1200,20 +1205,21 @@
     margin: 20px auto 0 auto;
 }
 
-.contact_notification{
+.contact_notification {
     display: inline-flex;
     align-items: center;
     background-color: #ffdfed;
     height: 40px;
     padding: 0 10px;
     color: #4c5760;
-    box-shadow: 0 10px 50px 0 rgba(255,223,237,1);
+    box-shadow: 0 10px 50px 0 rgba(255, 223, 237, 1);
     border-radius: 10px;
     font-family: 'Ubuntu', sans-serif;
     font-size: 17px;
     border: 0;
 }
-.contact_notification_error{
+
+.contact_notification_error {
     display: inline-flex;
     align-items: center;
     background-color: rgba(163, 33, 33, 0.73);
@@ -1227,19 +1233,19 @@
     border: 0;
 }
 
-.notification a{
+.notification a {
     text-decoration: none;
     color: #4c5760;
 }
 
-.follow-me-link{
+.follow-me-link {
     display: inline-flex;
     align-items: center;
     background-color: #ffdfed;
     height: 40px;
     padding: 0 10px;
     color: #4c5760;
-    box-shadow: 0 10px 50px 0 rgba(255,223,237,1);
+    box-shadow: 0 10px 50px 0 rgba(255, 223, 237, 1);
     border-radius: 10px;
     font-family: 'Ubuntu', sans-serif;
     font-size: 17px;
@@ -1249,6 +1255,7 @@
     margin: 20px auto 0 auto;
     text-decoration: none;
 }
+
 .follow {
     display: contents;
 }
